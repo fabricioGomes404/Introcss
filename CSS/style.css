@@ -105,3 +105,6 @@ input {
    display: flex;
    flex-direction: column;
 }
+.icone {
+    width: 100px;
+}
