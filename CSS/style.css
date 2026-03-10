@@ -1,3 +1,5 @@
+@charset "UTF-8";
+
 /*seletor universal*/
 * {
     margin: 0px;
@@ -38,6 +40,7 @@ nav{
     font-size: 1.5em;
     color: white;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: none;
 }
 .menu-item a:hover{
     color: chartreuse;
@@ -106,5 +109,5 @@ input {
    flex-direction: column;
 }
 .icone {
-    width: 100px;
+    width: 50px;
 }
