@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formúlario</title>
+    <link rel="stylesheet" href="CSS/style.css">
+
+</head>
+
+<body>
+    <header id="cabecalho">
+        <img src="img/mario.webp" alt="" id="mario">
+        <h2>Pizzaria do mario</h2>
+        <p>Onde sua fome não tem vez</p>
+    </header>
+    <!--menu-->
+    <nav>
+        <span class="menu-item"><a href="Index.html" style="text-decoration: none;">Home</a></span>
+        <span class="menu-item"><a>FAQ</a></span>
+    </nav>
+    <main id="ff">
+        <form id="form">
+            <h1 style="color:black;"> Cadastro </h1>
+            <label>Nome:</label>
+            <input type="text" placeholder="EX:Fulaninho" id="Nome">
+            <span class="mensagem-erro">Digite pelo menos 3 letras por favor.</span>
+            <br>
+            <label>Email:</label>
+            <input type="email" placeholder="Ex:meu@email.com" id="Email">
+            <span class="mensagem-erro">Digite um Email válido por favor.</span>
+            <br>
+            <label>CPF:</label>
+            <input type="text" placeholder="Ex:123.345.456-12" id="CPF">
+            <span class="mensagem-erro">Digite seu CPF por favor.</span>
+            <br>
+            <label>Telefone:</label>
+            <input type="number" placeholder="Ex: 85 5678-3245" id="Telefone">
+            <span class="mensagem-erro">Digite seu numero inteiro por favor.</span>
+            <br>
+            <button> Enviar </button>
+        </form>
+    </main>
+
+    
+
+    <script src="JS/main.js"></script>
+</body>
+
+</html>
