@@ -109,5 +109,15 @@ input {
    flex-direction: column;
 }
 .icone {
+    display: inline-block;
     width: 50px;
+}
+#faq {
+    display: inline-block;
+    margin-top: 30px;
+    margin-left: 500px;
+    background-color: rgb(256, 136, 0);
+}
+#faq h2 {
+    font-size: 15px;
 }
