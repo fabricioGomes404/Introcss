@@ -27,10 +27,12 @@ h2 {
 }
 
 .menu-item {
-    display: inline-block;
+    display: inline;
     margin: 10px;
 }
-
+a {
+    text-decoration: none;
+}
 nav{
     background-color:rgb(199, 209, 57);
     text-align: center;
@@ -41,6 +43,7 @@ nav{
     color: white;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-decoration: none;
+    text-align: center;
 }
 .menu-item a:hover{
     color: chartreuse;
@@ -110,15 +113,32 @@ input {
 }
 .icone {
     display: inline-block;
-    width: 50px;
+    width: 60px;
 }
 #faq {
-    display: inline-block;
-    margin-top: 30px;
-    margin-left: 500px;
-    background-color: rgb(256, 136, 0);
-    border-radius: ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(255, 136, 0);
+    width: 400px;
+    border-radius: 40px;
+    margin-top: 50px;
+    margin-left: 550px;
+    height: auto;
+    padding: 20px;
 }
 #faq h2 {
     font-size: 1.5em;
+}
+.preços{
+    background-color: rgba(255, 0, 0, 0.5);
+    font-size: larger;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.preços a{
+    color:rgb(255, 255, 255);
 }
