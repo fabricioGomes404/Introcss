@@ -143,3 +143,7 @@ input {
 .preços a{
     color:rgb(255, 255, 255);
 }
+.check {
+    display: flex;
+    flex-direction: row;
+}
