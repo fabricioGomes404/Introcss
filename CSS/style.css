@@ -94,12 +94,14 @@ nav{
 #ff{
     display: flex;
     justify-content: center;
+    align-items: center;
     background-color: rgb(255, 136, 0);
     width: 500px;
     border-radius: 50px;
     margin-top: 50px;
     margin-left: 500px;
     margin-bottom: 10px;
+    min-height: 600px;
 }
 #ff h1{
     text-align: center;
@@ -143,7 +145,34 @@ input {
 .preços a{
     color:rgb(255, 255, 255);
 }
-.check {
+footer{
+    background-color: brown;
+    color: rgb(233, 233, 233);
+    text-align: center;
+    margin: 20px;
+    padding: 20px;
+    
+}
+#brota{
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 15px;
+    padding: 10px;
+}
+#brota:hover{
+    background-color: white;
+    color: black;
+    transition: 0.5s;
+    cursor: pointer;
+}
+#envia{
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 15px;
+    padding: 10px;
+    width: 300px;
     display: flex;
-    flex-direction: row;
+    justify-content: center;
 }
